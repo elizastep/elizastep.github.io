@@ -81,7 +81,7 @@ const Gallery = () => {
             text: 'A mother and daughter study a Cartier display window in Vienna, Austria.',
         },
         {
-            src: '/website_images/city/vienna_bike-3.JPG',
+            src: '/website_images/city/vienna_bike-3.jpg',
             alt: 'bicyclists',
             text: 'Bicyclists race down a shopping street in Vienna, Austria. I took this shot by panning my camera to follow the cyclists with a slow shutter speed. This technique creates a blurred background while keeping the subject in focus.',
             style: { objectPosition: "bottom right" }
@@ -129,7 +129,7 @@ const Gallery = () => {
         { src: '/website_images/animals_birds/puffin_2.JPG', alt: 'puffin portrait', text: 'A puffin plays peekaboo from behind a clump of grass in Runde, Norway.' },
         { src: '/website_images/animals_birds/nursing_sheep.JPG', alt: 'mamma sheep', text: 'A mother sheep nurses her young. Runde, Norway.' },
         { src: '/website_images/animals_birds/multiple_sheeps.JPG', alt: 'sheeps', text: 'Sheep rest after lunch in Runde, Norway.' },
-        { src: '/website_images/animals_birds/hallstattcatt.JPG', alt: 'meow', text: 'A cozy cat taking a nap in Hallstatt, Austria.' },
+        { src: '/website_images/animals_birds/hallstattcatt.jpg', alt: 'meow', text: 'A cozy cat taking a nap in Hallstatt, Austria.' },
         { src: '/website_images/animals_birds/pigeon.JPG', alt: 'pigeon', text: 'A plump pigeon patrols a beach in Drammen, Norway.' },
         { src: '/website_images/animals_birds/velcro.JPG', alt: 'meow again', text: 'Velcro the cat takes a luxurious nap in a ray of sunshine. Klosterneuburg, Austria.' },
         { src: '/website_images/animals_birds/bear-4.jpg', alt: 'bear', text: 'A brown bear walks along the beach in search of a snack in Chinitna Bay, Alaska, USA.' },
@@ -137,7 +137,7 @@ const Gallery = () => {
     ];
 
     const nature_photos = [
-        { src: '/website_images/nature_insects/fish_hanging_2.PNG', alt: 'fish hanging', text: 'A rack of cod hanging to dry in Lofoten, Norway.' },
+        { src: '/website_images/nature_insects/fish_hanging_2.png', alt: 'fish hanging', text: 'A rack of cod hanging to dry in Lofoten, Norway.' },
         { src: '/website_images/nature_insects/sunset_ocean.JPG', alt: 'sunset on the ocean', text: 'Sunset over the ocean in Lofoten, Norway.' },
         { src: '/website_images/nature_insects/small_cactus.PNG', alt: 'desert plant', text: 'A tiny plant peeks up through the sand in White Sands, New Mexico, USA.' },
         { src: '/website_images/nature_insects/apples.JPG', alt: 'apples', text: 'Apples hanging from a tree in Flåm, Norway.' },
@@ -157,8 +157,8 @@ const Gallery = () => {
         { src: '/website_images/indoor_commercial/splash.JPG', alt: 'fruit splash', text: 'Fruit splashes into water.', classname: 'gallery-photo' },
         { src: '/website_images/indoor_commercial/leaf.JPG', alt: 'plant closeup', text: 'A closeup of a leaf with a smooth bokeh background.', classname: 'gallery-photo' },
         { src: '/website_images/indoor_commercial/candle_petals.JPG', alt: 'candle with petals', text: 'A product shot of a coffee-scented homemade candle.', classname: 'gallery-photo' },
-        { src: '/website_images/indoor_commercial/leaves_crisscross.JPG', alt: 'palm leaves', text: 'Light plays through criss-crossed palm leaves, forming interesting shadows below.', classname: 'gallery-photo' },
-        { src: '/website_images/indoor_commercial/horse_figurine.JPG', alt: 'horse figure', text: 'A Japanese kinetic sculpture of a horseback rider casts an interesting shadow in the long afternoon sun.', classname: 'gallery-photo-bl' },
+        { src: '/website_images/indoor_commercial/leaves_crisscross.jpg', alt: 'palm leaves', text: 'Light plays through criss-crossed palm leaves, forming interesting shadows below.', classname: 'gallery-photo' },
+        { src: '/website_images/indoor_commercial/horse_figurine.jpg', alt: 'horse figure', text: 'A Japanese kinetic sculpture of a horseback rider casts an interesting shadow in the long afternoon sun.', classname: 'gallery-photo-bl' },
 
 
     ];
@@ -167,8 +167,8 @@ const Gallery = () => {
         { src: '/website_images/food/champagne.PNG', alt: 'cheers!', text: 'Preparing to toast in a new year.' },
         { src: '/website_images/food/bun.JPG', alt: 'cardamom', text: 'A delicious cardamom bun.' },
         { src: '/website_images/food/steak.JPG', alt: 'steak', text: 'A seasoned steak is ready for the grill.' },
-        { src: '/website_images/food/ferrero.jpg', alt: 'chocolates', text: 'Ferrero Rocher chocolates against a smooth bokeh backround with celebratory ribbons.' },
-        { src: '/website_images/food/fancy.png', alt: 'entremet', text: 'A delicious entremet from Pascal.' },
+        { src: '/website_images/food/ferrero.JPG', alt: 'chocolates', text: 'Ferrero Rocher chocolates against a smooth bokeh backround with celebratory ribbons.' },
+        { src: '/website_images/food/fancy.PNG', alt: 'entremet', text: 'A delicious entremet from Pascal.' },
 
         { src: '/website_images/food/cocoa.JPG', alt: 'cocoa', text: 'Hot cocoa topped with whipped cream and chocolate stars.' },
         { src: '/website_images/food/wine_swirl-2.jpg', alt: 'red wine', text: 'Red wine swirls invitingly in a glass against a smooth bokeh background.' },
