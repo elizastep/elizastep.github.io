@@ -1,5 +1,12 @@
 # Getting Started with Create React App
 
+## Updating the real website
+run
+```
+npm run publish
+```
+and wait for the Github action to complete.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
