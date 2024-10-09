@@ -28,10 +28,22 @@
     .gallery-container {
         grid-template-columns: repeat(2, 320px);
     }
+
+    ;
+
+    .gallery-container-links {
+        grid-template-columns: repeat(2, 320px);
+    }
 }
 
 @media (width <=640px) {
     .gallery-container {
+        grid-template-columns: repeat(1, 320px);
+    }
+
+    ;
+
+    .gallery-container-links {
         grid-template-columns: repeat(1, 320px);
     }
 }
