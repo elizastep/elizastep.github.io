@@ -67,7 +67,7 @@ const About = () => {
                     <img
                         className='img_details'
                         src="/website_images/personal/yellow.jpg"
-                        alt="hallstatt camera"
+                        alt="picture_of_me"
                         border="5px"
                     ></img>
 

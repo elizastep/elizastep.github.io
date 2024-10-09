@@ -164,7 +164,13 @@ h1 {
   h2 {
     font-size: 8pt;
     word-wrap: break-word;
+    padding: 0px;
   }
+
+  .h1_left_align {
+    padding: 0px;
+  }
+
 
   p {
     font-size: 8pt;
@@ -176,6 +182,7 @@ h1 {
     font-size: 8pt;
     word-wrap: break-word;
     flex-wrap: wrap;
+    padding-top: 0px;
   }
 
   .h1_photo_gallery {
@@ -194,9 +201,21 @@ h1 {
 
   .picture-div {
     padding-left: 0px;
-    margin-left: 1vh;
+    margin-left: 2vh;
     display: flex;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 
+  }
+
+  .img_details {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 50vw;
+    height: 70vw;
+    object-position: bottom left;
+    align-items: left;
+    align-self: left;
   }
 
   .about-container {
