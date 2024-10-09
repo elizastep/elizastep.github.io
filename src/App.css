@@ -52,8 +52,158 @@ h1 {
   font-variant: normal;
   letter-spacing: 1dvh;
   font-weight: 800;
+  flex-wrap: inherit;
   color: #555;
 }
+
+
+@media only screen and (width <=2000px) {
+  /* body {
+    background-color: darksalmon;
+  } */
+
+  iframe {
+    width: 30vw;
+    height: 20vw;
+  }
+
+  .maybe-grid {
+    grid-template-columns: 50% 30%;
+    column-gap: 30px;
+  }
+
+}
+
+
+@media only screen and (width <=1000px) {
+  /* body {
+    background-color: lightblue;
+    align-items: left;
+    text-align: left;
+  } */
+
+  h2 {
+    font-size: 15pt;
+    word-wrap: break-word;
+  }
+
+  p {
+    font-size: 10pt;
+    word-wrap: break-word;
+  }
+
+  .maybe-grid {
+    grid-template-columns: min-content;
+    grid-template-rows: min-content;
+    row-gap: 0px;
+    column-gap: 0px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: left;
+    align-content: left;
+  }
+
+  .img_details {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 40vw;
+    height: 60vw;
+    object-position: bottom left;
+    align-items: left;
+    align-self: left;
+  }
+
+  .picture-div {
+    padding-left: 2vh;
+    margin-left: 2vh;
+    display: flex;
+
+  }
+
+  .text-div {
+    align-items: left;
+    align-self: left;
+    align-content: left;
+  }
+
+  iframe {
+    width: 50vw;
+    height: 30vw;
+  }
+
+  .p_left_align {
+    font-size: 10pt;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+  }
+
+  .h1_photo_gallery {
+    font-size: 30pt;
+    word-wrap: break-word;
+  }
+
+  .h1_left_align {
+    font-size: 15pt;
+    word-wrap: break-word;
+  }
+
+  .about-container {
+    align-items: left;
+    align-content: left;
+    align-self: left;
+  }
+}
+
+@media only screen and (width <=640px) {
+  /* body {
+    background-color: darkgrey;
+    word-wrap: break-word;
+  } */
+
+  h2 {
+    font-size: 8pt;
+    word-wrap: break-word;
+  }
+
+  p {
+    font-size: 8pt;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+  }
+
+  .p_left_align {
+    font-size: 8pt;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+  }
+
+  .h1_photo_gallery {
+    font-size: 20pt;
+    word-wrap: break-word;
+  }
+
+  .h1_left_align {
+    font-size: 10pt;
+    word-wrap: break-word;
+  }
+
+  .text-div {
+    padding-left: 0px;
+  }
+
+  .picture-div {
+    padding-left: 0px;
+    margin-left: 1vh;
+    display: flex;
+
+  }
+
+  .about-container {
+    padding: 1px;
+  }
+}
+
 
 iframe {
   flex-direction: row;
@@ -102,7 +252,7 @@ p {
 }
 
 body {
-  font-size: 12pt;
+  /* font-size: 12pt; */
   font-family: Comfortaa;
   font-variant: normal;
   color: #555;

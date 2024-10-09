@@ -16,7 +16,7 @@
     /* align-self: center; */
     /* gap: 10px; */
     align-items: left;
-    column-gap: 10px;
+    column-gap: 10vh;
     row-gap: 15px;
     height: fit-content;
 }
