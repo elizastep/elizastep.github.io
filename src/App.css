@@ -12,9 +12,7 @@ nav ul li {
   margin: 10px;
 }
 
-.about-container {
-  padding: 20px;
-}
+
 
 /* h1 is largest heading */
 /* General rules for fonts and colors */
@@ -82,7 +80,7 @@ p {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-size: 18pt;
+  font-size: 15pt;
   font-family: Comfortaa;
   font-variant: normal;
   color: #555;
@@ -94,7 +92,7 @@ p {
   padding-bottom: 18pt;
   margin-left: 20pt;
   text-align: left;
-  font-size: 18pt;
+  font-size: 15pt;
   font-family: Comfortaa;
   font-variant: normal;
   color: #555;
@@ -109,6 +107,8 @@ body {
   font-variant: normal;
   color: #555;
   text-align: center;
+  /* something like below to force footer down? */
+  /* min-height: calc(100vh - 70px); */
 }
 
 
@@ -140,8 +140,22 @@ footer {
   text-align: center;
   padding: 15px 0;
   width: 100%;
-  margin-top: auto;
+  height: 70px;
+  /* margin-top: 100vh; */
   /* Pushes the footer to the bottom */
+  /* position: fixed; */
+  /* position: static; */
+  /* margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0px;
+  bottom: 0px;
+  height: 100%; */
+  /* position: absolute; */
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  /* height: 100% */
 }
 
 .p_footer {
