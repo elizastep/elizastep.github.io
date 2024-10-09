@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Layout.css';
 
+{/* <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <Link to="/awesome-post">
+</BrowserRouter> */}
+
 const Layout = ({ children }) => {
     return (
         <div className="layout">
@@ -14,8 +18,9 @@ const Layout = ({ children }) => {
                     {/* Navigation menu */}
                     <nav className="nav">
                         <ul className="nav-list">
-                            <li><Link to="/">gallery</Link></li>
-                            <li><Link to="/about">about me</Link></li>
+
+                            <li><Link className="nav-link" to="/">gallery</Link></li>
+                            <li><Link className="nav-link" to="/about">about me</Link></li>
                         </ul>
                     </nav>
                 </div>

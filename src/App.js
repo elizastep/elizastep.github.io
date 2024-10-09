@@ -5,6 +5,8 @@ import Gallery from './components/Gallery';
 import About from './components/About';
 import './App.css';
 
+
+
 function App() {
   return (
     <Router>
