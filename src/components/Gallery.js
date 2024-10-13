@@ -445,7 +445,10 @@ const Gallery = () => {
 
             < div  >
                 <h1 className='h1_photo_gallery'>photo gallery</h1>
-                <div> subject-centric · playful · in-the-moment</div>
+                <div className='gallerydescript'> subject-centric · playful · in-the-moment</div>
+                <div>
+                    <br></br>
+                </div>
                 <p>
                     some of my published photos:
                 </p>
@@ -454,9 +457,9 @@ const Gallery = () => {
             <div className="gallery-container-links">
 
                 {published_photos.map((photo, index) => (
-                    <div className='photo'>
+                    <div key={index} className='photo'>
                         <img
-                            key={index}
+
                             src={photo.src}
                             alt={photo.alt}
                             className="gallery-photo"
