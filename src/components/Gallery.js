@@ -455,6 +455,10 @@ const Gallery = () => {
 
                 {published_photos.map((photo, index) => (
                     <div className='photo'>
+
+                        <div id="loading">
+                            <img id="loading-image" src="public/camera_spinner.gif" alt="Loading..." />
+                        </div>
                         <img
                             key={index}
                             src={photo.src}
@@ -465,6 +469,7 @@ const Gallery = () => {
                         <span> {photo.text} <a href={photo.link}>link</a> </span>
 
                     </div>
+
 
 
                 ))}
@@ -479,6 +484,9 @@ const Gallery = () => {
             {/* OTHER PHOTOS */}
 
             <div className="gallery-container">
+                <div id="loading">
+                    <img id="loading-image" src="public/camera_spinner.gif" alt="Loading..." />
+                </div>
 
                 {portrait_photos.map((photo, index) => (
                     <img
@@ -500,6 +508,9 @@ const Gallery = () => {
             {/* OTHER PHOTOS */}
 
             <div className="gallery-container">
+                <div id="loading">
+                    <img id="loading-image" src="public/camera_spinner.gif" alt="Loading..." />
+                </div>
 
                 {city_photos.map((photo, index) => (
                     <img
@@ -524,6 +535,9 @@ const Gallery = () => {
             {/* OTHER PHOTOS */}
 
             <div className="gallery-container">
+                <div id="loading">
+                    <img id="loading-image" src="public/camera_spinner.gif" alt="Loading..." />
+                </div>
 
                 {animal_photos.map((photo, index) => (
                     <img
@@ -545,6 +559,9 @@ const Gallery = () => {
             {/* OTHER PHOTOS */}
 
             <div className="gallery-container">
+                <div id="loading">
+                    <img id="loading-image" src="public/camera_spinner.gif" alt="Loading..." />
+                </div>
 
                 {nature_photos.map((photo, index) => (
                     <img
@@ -566,6 +583,9 @@ const Gallery = () => {
             {/* OTHER PHOTOS */}
 
             <div className="gallery-container">
+                <div id="loading">
+                    <img id="loading-image" src="public/camera_spinner.gif" alt="Loading..." />
+                </div>
 
                 {commercial_photos.map((photo, index) => (
                     <img
@@ -587,6 +607,9 @@ const Gallery = () => {
             {/* OTHER PHOTOS */}
 
             <div className="gallery-container">
+                <div id="loading">
+                    <img id="loading-image" src="public/camera_spinner.gif" alt="Loading..." />
+                </div>
 
                 {food_photos.map((photo, index) => (
                     <img
@@ -602,6 +625,12 @@ const Gallery = () => {
             {/* Display the selected full-size photo */}
 
             {selectedPhoto && <Modal selectedPhoto={selectedPhoto} setSelectedPhoto={setSelectedPhoto} />}
+
+            <script>
+                $(window).load(function() {
+                    $('#loading').hide()
+                });
+            </script>
         </>
     );
 };
