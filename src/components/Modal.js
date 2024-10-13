@@ -13,7 +13,7 @@ const Modal = ({ selectedPhoto, setSelectedPhoto }) => {
     return (
         <div className="backdrop" onClick={handleClickOutside}>
             <div className="modal-content">
-                <img src={selectedPhoto.src} alt={selectedPhoto.alt} className="modal-photo" />
+                <img src={selectedPhoto.full} alt={selectedPhoto.alt} className="modal-photo" />
                 <p className="modal-text">{selectedPhoto.text}</p>
             </div>
         </div>
