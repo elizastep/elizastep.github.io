@@ -497,7 +497,7 @@ const Gallery = () => {
             </div>
             < div  >
                 <p>
-                    cityscapes
+                    commercial
                 </p>
             </div >
 
@@ -505,15 +505,13 @@ const Gallery = () => {
 
             <div className="gallery-container">
 
-                {city_photos.map((photo, index) => (
+
+                {commercial_photos.map((photo, index) => (
                     <img
                         key={index}
                         src={photo.src}
                         alt={photo.alt}
-
-                        // this allows individual control over photo alignment
-                        className="gallery-photo"
-                        style={photo.style}
+                        className={photo.classname}
                         onClick={() => setSelectedPhoto(photo)} // Set the selected photo when clicked
                     />
                 ))}
@@ -563,9 +561,12 @@ const Gallery = () => {
                 ))}
             </div>
 
+
+
+
             < div  >
                 <p>
-                    commercial
+                    cityscapes
                 </p>
             </div >
 
@@ -573,13 +574,15 @@ const Gallery = () => {
 
             <div className="gallery-container">
 
-
-                {commercial_photos.map((photo, index) => (
+                {city_photos.map((photo, index) => (
                     <img
                         key={index}
                         src={photo.src}
                         alt={photo.alt}
-                        className={photo.classname}
+
+                        // this allows individual control over photo alignment
+                        className="gallery-photo"
+                        style={photo.style}
                         onClick={() => setSelectedPhoto(photo)} // Set the selected photo when clicked
                     />
                 ))}
