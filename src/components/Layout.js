@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
 
             {/* Footer */}
             <footer className="footer">
-                <p className="p_footer">&copy; 2024 Elizabeth Stephenson - All Rights Reserved</p>
+                <p className="p_footer">&copy; 2025 Elizabeth Stephenson - All Rights Reserved</p>
             </footer>
         </div>
     );
